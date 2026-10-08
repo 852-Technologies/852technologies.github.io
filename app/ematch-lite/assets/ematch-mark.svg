@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-60 -66 120 132" width="120" height="132">
+  <!-- Left arcs — amber -->
+  <path d="M0,-8  A8,8,0,0,0,0,8"   fill="none" stroke="#F5A623" stroke-width="3"   stroke-linecap="round"/>
+  <path d="M0,-14 A14,14,0,0,0,0,14" fill="none" stroke="#F5A623" stroke-width="2.7" stroke-linecap="round"/>
+  <path d="M0,-20 A20,20,0,0,0,0,20" fill="none" stroke="#F5A623" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M0,-28 A28,28,0,0,0,0,28" fill="none" stroke="#F5A623" stroke-width="2.2" stroke-linecap="round"/>
+  <path d="M0,-36 A36,36,0,0,0,0,36" fill="none" stroke="#F5A623" stroke-width="2"   stroke-linecap="round"/>
+  <path d="M0,-46 A46,46,0,0,0,0,46" fill="none" stroke="#F5A623" stroke-width="1.8" stroke-linecap="round"/>
+  <path d="M0,-56 A56,56,0,0,0,0,56" fill="none" stroke="#F5A623" stroke-width="1.6" stroke-linecap="round"/>
+  <!-- Right arcs — slate -->
+  <path d="M0,-8  A8,8,0,0,1,0,8"   fill="none" stroke="#8AA4BE" stroke-width="3"   stroke-linecap="round"/>
+  <path d="M0,-14 A14,14,0,0,1,0,14" fill="none" stroke="#8AA4BE" stroke-width="2.7" stroke-linecap="round"/>
+  <path d="M0,-20 A20,20,0,0,1,0,20" fill="none" stroke="#8AA4BE" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M0,-28 A28,28,0,0,1,0,28" fill="none" stroke="#8AA4BE" stroke-width="2.2" stroke-linecap="round"/>
+  <path d="M0,-36 A36,36,0,0,1,0,36" fill="none" stroke="#8AA4BE" stroke-width="2"   stroke-linecap="round"/>
+  <path d="M0,-46 A46,46,0,0,1,0,46" fill="none" stroke="#8AA4BE" stroke-width="1.8" stroke-linecap="round"/>
+  <path d="M0,-56 A56,56,0,0,1,0,56" fill="none" stroke="#8AA4BE" stroke-width="1.6" stroke-linecap="round"/>
+  <!-- Vertical split guide -->
+  <line x1="0" y1="-62" x2="0" y2="62" stroke="#253D56" stroke-width="0.8"/>
+  <!-- Centre pivot -->
+  <circle r="5.5" fill="#F5A623"/>
+  <circle r="2.5" fill="#0A1628"/>
+</svg>
