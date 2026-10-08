@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg"
+     viewBox="0 0 300 300" width="300" height="300">
+
+  <defs>
+    <style type="text/css"><![CDATA[
+      /* Loads the exact same Playfair Display your website uses */
+      @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&display=swap');
+
+      .num {
+        font-family: 'Playfair Display', Georgia, serif;
+        font-weight: 900;
+        font-size: 80px;
+        fill: #0A1628;
+        letter-spacing: -2px;
+        font-variant-numeric: lining-nums tabular-nums;
+      }
+      .sub {
+        font-family: 'Playfair Display', Georgia, serif;
+        font-weight: 700;
+        font-size: 24px;
+        fill: #0A1628;
+        fill-opacity: 0.62;
+        letter-spacing: 0.04em;
+      }
+    ]]></style>
+  </defs>
+
+  <!-- White background -->
+  <rect width="300" height="300" fill="#FFFFFF"/>
+
+  <!--
+    Bracket mark — scaled from business-card back values
+    (.bml: padding 10/16/8/14, arm 14px, border 2.5px at 44px font)
+    Scale ×1.82 for 80px font → padding 18/29/15/25, arm 25px, border 4px
+
+    Mark area: x=56..245  y=92..183  (w=189, h=91)
+  -->
+
+  <!-- Top-left corner -->
+  <rect x="56"  y="73"  width="25" height="4" fill="#1A5CD6"/>
+  <rect x="56"  y="73"  width="4"  height="25" fill="#1A5CD6"/>
+
+  <!-- Top-right corner -->
+  <rect x="209" y="73"  width="25" height="4" fill="#1A5CD6"/>
+  <rect x="230" y="73"  width="4"  height="25" fill="#1A5CD6"/>
+
+  <!-- Bottom-right corner -->
+  <rect x="209" y="179" width="25" height="4" fill="#1A5CD6"/>
+  <rect x="230" y="158" width="4"  height="25" fill="#1A5CD6"/>
+
+  <!-- Bottom-left corner -->
+  <rect x="56"  y="179" width="25" height="4" fill="#1A5CD6"/>
+  <rect x="56"  y="158" width="4"  height="25" fill="#1A5CD6"/>
+
+  <!-- "852" -->
+  <text class="num" text-anchor="middle" x="144" y="160">852</text>
+
+  <!-- "Technologies" — margin-top 8px below bracket, baseline at y=208 -->
+  <text class="sub" text-anchor="middle" x="145" y="213">Technologies</text>
+
+</svg>
